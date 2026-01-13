@@ -18,7 +18,7 @@ This framework helps you systematically:
 
 ### 1. Install Prerequisites
 
-* [Claude Code](https://code.claude.com) (requires Claude Pro or more)
+* [Claude Code](https://code.claude.com) (requires Claude Pro or higher)
 
 ### 2. Configure Your Domain
 
