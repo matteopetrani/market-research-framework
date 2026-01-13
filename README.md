@@ -7,18 +7,21 @@ Built with [Claude Code](https://code.claude.com) using Agent Skills and Slash C
 ## What This Framework Does
 
 This framework helps you systematically:
-- 🔍 Analyze competitors in any market
-- 📊 Quantify market size and growth trends (TAM/SAM/SOM)
-- 👥 Mine user communities for pain points and demand signals
-- ✅ Validate product assumptions with evidence
-- 📝 Synthesize findings into actionable MVP recommendations
+
+* 🔍 Analyze competitors in any market
+* 📊 Quantify market size and growth trends (TAM/SAM/SOM)
+* 👥 Mine user communities for pain points and demand signals
+* ✅ Validate product assumptions with evidence
+* 📝 Synthesize findings into actionable MVP recommendations
 
 ## Quick Start
 
 ### 1. Install Prerequisites
-- [Claude Code](https://code.claude.com) (requires Claude Pro, Team, or Enterprise)
+
+* [Claude Code](https://code.claude.com) (requires Claude Pro or more)
 
 ### 2. Configure Your Domain
+
 ```bash
 # Copy templates and customize
 cp domain-config.template.md domain-config.md
@@ -32,6 +35,7 @@ cp assumptions.template.md assumptions.md
 ```
 
 ### 3. Run Research
+
 ```bash
 # Analyze competitors
 /research competitor https://competitor1.com
@@ -52,70 +56,85 @@ cp assumptions.template.md assumptions.md
 ## Features
 
 ### Domain-Agnostic Design
+
 Works for any B2C product validation:
-- **Pregnancy apps** (original use case: Nine Moons)
-- **Fitness apps** (example: FitFlow)
-- **Personal finance** (example: BudgetBuddy)
-- **Or any other market** - just configure domain-config.md
+
+* **Pregnancy apps** (original use case: Nine Moons)
+* **Fitness apps** (example: FitFlow)
+* **Personal finance** (example: BudgetBuddy)
+* **Or any other market** - just configure domain-config.md
 
 ### Configuration-Driven
+
 All domain-specific information lives in two config files:
-- **`domain-config.md`** - Market context (product, communities, keywords)
-- **`assumptions.md`** - Testable hypotheses about your market
+
+* **`domain-config.md`** - Market context (product, communities, keywords)
+* **`assumptions.md`** - Testable hypotheses about your market
 
 ### Reusable Research Methods
+
 5 specialized skills that adapt to your market:
-- `analyzing-competitors` - Deep competitor analysis from URLs
-- `discovering-hidden-competitors` - Find niche and adjacent competitors
-- `mining-community-insights` - Extract insights from online communities
-- `researching-market-opportunity` - Calculate TAM/SAM/SOM
-- `synthesizing-research` - Aggregate findings into executive summary
+
+* `analyzing-competitors` - Deep competitor analysis from URLs
+* `discovering-hidden-competitors` - Find niche and adjacent competitors
+* `mining-community-insights` - Extract insights from online communities
+* `researching-market-opportunity` - Calculate TAM/SAM/SOM
+* `synthesizing-research` - Aggregate findings into executive summary
 
 ### Slash Commands
+
 Simple workflows via Claude Code commands:
-- `/research competitor <url>` - Analyze specific competitor
-- `/research market` - Gather market sizing data
-- `/research community` - Mine user communities
-- `/research assumptions` - Validate hypotheses
-- `/synthesize` - Create executive summary
+
+* `/research competitor <url>` - Analyze specific competitor
+* `/research market` - Gather market sizing data
+* `/research community` - Mine user communities
+* `/research assumptions` - Validate hypotheses
+* `/synthesize` - Create executive summary
 
 ## Example Use Cases
 
 ### Nine Moons (Pregnancy App)
+
 Validating a pregnancy app with spiritual/wellness content.
 
 **Domain Config:**
-- Market: Pregnancy apps → Wellness & spirituality
-- Communities: r/pregnancy, r/BabyBumps, r/Spirituality
-- Keywords: holistic pregnancy, spiritual pregnancy
-- Analysis Dimensions: Spiritual content coverage, personalization
+
+* Market: Pregnancy apps → Wellness & spirituality
+* Communities: r/pregnancy, r/BabyBumps, r/Spirituality
+* Keywords: holistic pregnancy, spiritual pregnancy
+* Analysis Dimensions: Spiritual content coverage, personalization
 
 ### FitFlow (Fitness App)
+
 Validating an AI-powered strength training app.
 
 **Domain Config:**
-- Market: Fitness apps → AI-powered strength training
-- Communities: r/fitness, r/bodyweightfitness, r/homegym
-- Keywords: fitness app, strength training, AI coach
-- Analysis Dimensions: AI/ML personalization, exercise library
+
+* Market: Fitness apps → AI-powered strength training
+* Communities: r/fitness, r/bodyweightfitness, r/homegym
+* Keywords: fitness app, strength training, AI coach
+* Analysis Dimensions: AI/ML personalization, exercise library
 
 ### BudgetBuddy (Personal Finance)
+
 Validating a budgeting app for millennials.
 
 **Domain Config:**
-- Market: Personal finance apps → Budgeting for millennials
-- Communities: r/personalfinance, r/Fire, r/Frugal
-- Keywords: budgeting app, expense tracking
-- Analysis Dimensions: Automation features, visual dashboards
+
+* Market: Personal finance apps → Budgeting for millennials
+* Communities: r/personalfinance, r/Fire, r/Frugal
+* Keywords: budgeting app, expense tracking
+* Analysis Dimensions: Automation features, visual dashboards
 
 ## Documentation
 
 Complete documentation available in `.claude/README.md`:
-- Detailed setup instructions
-- Command reference
-- Skills overview
-- Methodology
-- Best practices
+
+* Detailed setup instructions
+* Command reference
+* Skills overview
+* Methodology
+* Best practices
 
 ## Output Structure
 
@@ -138,9 +157,10 @@ output/
 ## Technology
 
 Built with:
-- [Claude Code](https://code.claude.com) - AI-powered CLI
-- [Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Reusable capabilities
-- [Slash Commands](https://code.claude.com/docs/en/slash-commands) - Custom workflows
+
+* [Claude Code](https://code.claude.com) - AI-powered CLI
+* [Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Reusable capabilities
+* [Slash Commands](https://code.claude.com/docs/en/slash-commands) - Custom workflows
 
 ## Origin Story
 
@@ -153,16 +173,17 @@ MIT License - feel free to use for any product validation project.
 ## Contributing
 
 Contributions welcome! Areas for improvement:
-- Additional example configurations
-- Enhanced analysis dimensions for specific markets
-- Integration with other research tools
-- Documentation improvements
+
+* Additional example configurations
+* Enhanced analysis dimensions for specific markets
+* Integration with other research tools
+* Documentation improvements
 
 ## Author
 
 Created with Claude Code by Matteo Petrani
 
----
+***
 
 **Ready to validate your product idea?**
 

@@ -1,0 +1,17 @@
+# Table of contents
+
+* [Market Research Framework](README.md)
+* [Nine Moons - Product Assumptions](assumptions.md)
+* [\[Product Name\] - Product Assumptions](assumptions.template.md)
+* [Domain Configuration](domain-config.md)
+* [Domain Configuration](domain-config.template.md)
+* [Market Research Framework for Product Validation](.claude/README.md)
+  * [commands](.claude/commands/README.md)
+    * [Research Command](.claude/commands/research.md)
+    * [Synthesize Command](.claude/commands/synthesize.md)
+  * [skills](.claude/skills/README.md)
+    * [Analyzing Competitors](.claude/skills/analyzing-competitors.md)
+    * [Discovering Hidden Competitors](.claude/skills/discovering-hidden-competitors.md)
+    * [Mining Community Insights](.claude/skills/mining-community-insights.md)
+    * [Researching Market Opportunity](.claude/skills/researching-market-opportunity.md)
+    * [Synthesizing Research](.claude/skills/synthesizing-research.md)
