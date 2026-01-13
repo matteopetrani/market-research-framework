@@ -6,6 +6,18 @@ Aggregate research findings into actionable executive summary with viability ass
 
 `/synthesize $ARGUMENTS`
 
+## Output and Evidence Standards
+
+- Tie every recommendation to evidence in `research/` files with citations.
+- Use this citation format: `[Source Name](URL) - accessed YYYY-MM-DD`
+- Include a "Known Unknowns" or "Gaps" section in the executive summary.
+- Do not invent missing research or citations.
+
+## File Handling
+
+- Create `output/` if it does not exist.
+- Do not overwrite existing files without confirming with the user.
+
 ## Modes
 
 ### Default (no arguments)
@@ -20,6 +32,7 @@ Use the `synthesizing-research` skill to read all files in `research/` folder an
 - Viability assessment (go/no-go framework)
 - Risk factors and mitigations
 - Next steps
+- Known unknowns and gaps
 
 ### `detailed`
 Create extended synthesis with multiple planning documents.
@@ -45,14 +58,15 @@ When the user runs `/synthesize`:
 
 1. Read `domain-config.md` from project root to understand product name, market context, and key differentiators
 2. Verify that research files exist in the `research/` directory
-3. Check if `assumptions.md` exists in the project root and include it in synthesis if available
-4. If insufficient research data, inform the user which research areas are missing and recommend completing them first
+3. If required files are missing, list them and stop (do not guess)
+4. Check if `assumptions.md` exists in the project root and include it in synthesis if available
 5. Use the `synthesizing-research` skill to read and aggregate all research findings
 6. Extract cross-cutting insights and identify key themes
-7. Create viability assessment based on evidence from research
-8. Generate actionable MVP recommendations with strategic rationale
-9. For `detailed` mode, create additional planning documents
-10. Provide brief summary of key findings and viability conclusion
-11. Suggest next steps based on the viability assessment
+7. Create viability assessment based on evidence from research with citations
+8. Generate actionable MVP recommendations with strategic rationale and citations
+9. Include a "Known Unknowns" or "Gaps" section
+10. For `detailed` mode, create additional planning documents
+11. Provide brief summary of key findings and viability conclusion
+12. Suggest next steps based on the viability assessment
 
-Note: Synthesis will overwrite existing files in `output/` directory. Warn user if files already exist.
+Note: Synthesis will overwrite existing files in `output/` directory. Confirm with the user before overwriting.

@@ -4,14 +4,17 @@
 - **Product Name:** Nine Moons
 - **Market Category:** Pregnancy apps
 - **Market Subcategory:** Wellness & spirituality
-- **Target Audience:** Pregnant people interested in holistic/spiritual pregnancy experiences
+- **Target Audience:** Pregnant people interested in holistic/spiritual pregnancy stories, ancient tradition and religious beliefs. 
 
 ## Search Keywords
 Primary terms for research:
 - pregnancy app
 - holistic pregnancy
-- wellness pregnancy
 - spiritual pregnancy
+- traditions during pregnancy
+- soul beliefs during pregnancy
+- chakra formation during pregnancy
+- religion beliefs during pregnancy
 
 ## Key Communities
 
@@ -31,6 +34,7 @@ Primary terms for research:
 - Pregnancy forums
 - Wellness communities
 - Spiritual pregnancy groups
+- Historical tradition and beliefs groups
 
 ## Adjacent Categories
 Categories that compete for user attention or offer alternatives:
@@ -40,7 +44,6 @@ Categories that compete for user attention or offer alternatives:
 - Parenting apps
 - Religious/spiritual apps
 - Mindfulness apps
-- Fertility tracking apps
 
 ## Competitor Discovery Dimensions
 Search angles for finding competitors:
@@ -52,13 +55,22 @@ Search angles for finding competitors:
 - Niche players in adjacent categories
 - Platform-specific features (iOS/Android)
 
+### Know competitors/comparables
+- https://stardust.app/
+- https://belly.babyalbum.com/
+- https://expectful.com/
+- https://www.baby2body.com/
+- https://www.emmasdiary.co.uk/
+- https://glowing.com/apps#nurture-app
+- https://www.imumz.com/
+- https://preglife.com/
+
 ## Analysis Dimensions
 Key aspects to evaluate in competitors:
 - Spiritual/religious content coverage
 - Content approach (clinical vs. holistic vs. spiritual)
 - Personalization features
-- Community features
 - Monetization model (free, freemium, subscription, one-time purchase)
 - Multi-faith support vs. single tradition
-- Daily content delivery (reflections, meditations, rituals)
+- Weekly content delivery (reflections, meditations, rituals)
 - Integration of tracking + spiritual content

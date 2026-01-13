@@ -5,7 +5,7 @@ This document contains key hypotheses about the Nine Moons pregnancy app concept
 ## Market Assumptions
 
 ### 1. Market Demand
-**Assumption:** Pregnant women interested in spirituality/holistic wellness represent a cohesive, addressable market segment.
+**Assumption:** Pregnant women interested in spirituality represent a cohesive, addressable market segment. In particular, they are interested in getting inspired by beliefs and traditional stories about pregnancy (week by week) from different cultures, religions and beliefs. 
 
 **Why this matters:** Validates the core target audience exists and is identifiable.
 
@@ -17,7 +17,7 @@ This document contains key hypotheses about the Nine Moons pregnancy app concept
 ---
 
 ### 2. Market Size
-**Assumption:** The spiritual pregnancy segment is large enough to support a viable business (>100K potential users).
+**Assumption:** The spiritual pregnancy segment is large enough to support a viable business (>50K yearly potential users).
 
 **Why this matters:** Determines if the market is worth pursuing.
 
@@ -31,7 +31,7 @@ This document contains key hypotheses about the Nine Moons pregnancy app concept
 ## Competitive Assumptions
 
 ### 3. Competitive Gaps
-**Assumption:** Existing pregnancy apps lack comprehensive spiritual and religious content.
+**Assumption:** Existing pregnancy apps lack comprehensive spiritual and religious content. The editorial content provided by comeptitor is just science based (size of the fetus, weight, evolution, ...)
 
 **Why this matters:** Validates the key differentiation opportunity.
 
@@ -69,13 +69,13 @@ This document contains key hypotheses about the Nine Moons pregnancy app concept
 ---
 
 ### 6. Content Preferences
-**Assumption:** Users want daily spiritual content (reflections, rituals, meditations) integrated with pregnancy tracking.
+**Assumption:** Users want weekly spiritual content (reflections, rituals, meditations) integrated with pregnancy tracking.
 
 **Why this matters:** Defines the core product experience.
 
 **Validation criteria:**
-- User requests for daily content in communities
-- Success of meditation/wellness apps with daily formats
+- User requests for weekly content in communities
+- Success of meditation/wellness apps with weekly formats
 - Engagement patterns with spiritual pregnancy content
 
 ---
@@ -83,7 +83,7 @@ This document contains key hypotheses about the Nine Moons pregnancy app concept
 ## Monetization Assumptions
 
 ### 7. Willingness to Pay
-**Assumption:** Users will pay a subscription fee ($5-15/month) for premium spiritual pregnancy content.
+**Assumption:** Users will pay a subscription fee ($1.5-2/wek) for premium spiritual pregnancy content.
 
 **Why this matters:** Validates the business model.
 
@@ -95,7 +95,7 @@ This document contains key hypotheses about the Nine Moons pregnancy app concept
 ---
 
 ### 8. Freemium Viability
-**Assumption:** A freemium model (free tracking + paid spiritual content) will drive conversion better than free trial or paid-only.
+**Assumption:** A freemium model (3 weeks free then subscription) will drive conversion better than free trial or paid-only.
 
 **Why this matters:** Determines launch monetization strategy.
 
@@ -108,8 +108,8 @@ This document contains key hypotheses about the Nine Moons pregnancy app concept
 
 ## Product Assumptions
 
-### 9. Content Over Features
-**Assumption:** High-quality spiritual content is more important than advanced tracking features for our target users.
+### 9a. Content Over Features
+**Assumption:** High-quality spiritual content is more important than advanced tracking features for our target users. The app is more a container of an editorial project.
 
 **Why this matters:** Prioritizes MVP scope.
 
@@ -117,6 +117,16 @@ This document contains key hypotheses about the Nine Moons pregnancy app concept
 - User feedback emphasizes content quality
 - Competitors with basic tracking + good content succeed
 - Feature request patterns show content gaps more than feature gaps
+
+---
+
+### 9b. Content existence 
+**Assumption:** There is enough content to write relevant weekly updates during the maternity. Each post/story must be tied and contextualized with the current week of the fetus growth. There should not be generalistic content such as "in the third month..." but "during the 13th week the ancient populus of... used to...". Content should be inspiring, surprising and nurture curiosity. 
+
+**Why this matters:** Define the content strategy. 
+
+**Validation criteria:**
+- There is enough content to cover the whole pregnancy time span
 
 ---
 

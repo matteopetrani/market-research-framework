@@ -16,6 +16,11 @@ Before starting, read `domain-config.md` from the project root to understand:
 - Key analysis dimensions specific to this market
 - Domain-specific features to evaluate
 
+## Evidence standards
+
+- Cite sources for key claims.
+- Use this citation format: `[Source Name](URL) - accessed YYYY-MM-DD`
+
 ## Analysis dimensions
 
 - Core features and functionality
@@ -31,6 +36,7 @@ Before starting, read `domain-config.md` from the project root to understand:
 1. **Fetch competitor information** from the provided URL:
    - For websites: Extract product descriptions, features, pricing, about pages
    - For app stores: Extract app description, screenshots, reviews, pricing, feature list
+   - If the source is inaccessible, ask the user for links, screenshots, or notes and proceed only with what is provided
 
 2. **Extract key data** for this competitor:
    - Feature set and unique capabilities
@@ -58,7 +64,7 @@ Append to `research/competitive-landscape.md` with a new section:
 
 **URL:** [provided URL]
 **Type:** [Website/iOS App/Android App]
-**Analyzed:** [Date]
+**Analyzed:** [YYYY-MM-DD]
 
 ### Overview
 [Brief description of the product]
@@ -84,6 +90,10 @@ Append to `research/competitive-landscape.md` with a new section:
 ### User Sentiment
 [Based on reviews, if available]
 
+### Evidence
+- [Source Name](URL) - accessed YYYY-MM-DD
+- [Source Name](URL) - accessed YYYY-MM-DD
+
 ### Strengths
 - Strength 1
 - Strength 2
@@ -95,8 +105,16 @@ Append to `research/competitive-landscape.md` with a new section:
 ### Differentiation Opportunities
 [How your product could position differently - use product name from domain-config.md]
 
+### Limits and Unknowns
+- [Not available or unclear data points]
+
+### Assumptions Made
+- [Only if needed, otherwise state "None"]
+
 ---
 ```
+
+If any data is missing, write "Not available" rather than guessing.
 
 ## Success criteria
 
@@ -105,3 +123,4 @@ Append to `research/competitive-landscape.md` with a new section:
 - Specific differentiation opportunities identified
 - User sentiment captured (if reviews available)
 - Domain-specific features evaluated per market context
+- Evidence and citations included for key claims

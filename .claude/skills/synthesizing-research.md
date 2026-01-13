@@ -16,6 +16,12 @@ Read `domain-config.md` from project root to understand:
 - Key differentiators to highlight
 - Target audience definition
 
+## Evidence standards
+
+- Tie recommendations to evidence in `research/` files.
+- Use original citations from the research files when available.
+- If a claim lacks a citation in the research files, note it as a gap.
+
 ## Research inputs required
 
 - `research/competitive-landscape.md` (competitor analysis)
@@ -41,7 +47,10 @@ Read `domain-config.md` from project root to understand:
    - **MVP scope**: What features should launch first?
    - **Risks**: What could prevent success?
 
-3. **Create actionable recommendations** for MVP development
+3. **Create actionable recommendations** for MVP development with citations
+4. **Document known unknowns** and gaps in the evidence
+
+If required research files are missing, list them and stop (do not guess).
 
 ## Output format
 
@@ -53,10 +62,14 @@ Create `output/executive-summary.md` with:
 - MVP feature recommendations
 - Go/no-go decision framework
 - Risk assessment and mitigation
+- Known unknowns and gaps
+- Evidence links for major claims
 
 Optional supplementary files:
 - `output/mvp-feature-spec.md` (detailed feature scope)
 - `output/content-strategy.md` (editorial approach)
+- `output/validation-plan.md` (experiments for key assumptions)
+- `output/go-to-market.md` (initial user acquisition strategy)
 
 ## Success criteria
 
@@ -65,3 +78,4 @@ Optional supplementary files:
 - Identified 2-3 key risks and mitigations
 - Decision-ready for stakeholders
 - Actionable next steps defined
+- Evidence and citations included for key claims

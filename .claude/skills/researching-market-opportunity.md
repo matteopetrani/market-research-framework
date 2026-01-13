@@ -16,6 +16,11 @@ Read market segmentation from `domain-config.md`:
 - Market subcategory (for SAM)
 - Target audience (for SOM)
 
+## Evidence standards
+
+- Cite sources for each market size or trend claim.
+- Use this citation format: `[Source Name](URL) - accessed YYYY-MM-DD`
+
 ## Research process
 
 1. **Gather market sizing data**:
@@ -36,6 +41,8 @@ Read market segmentation from `domain-config.md`:
    - Geographic growth variations
    - Technology and feature evolution
 
+If sources are inaccessible, ask the user for reports or links and proceed only with what is provided.
+
 ## Output format
 
 Create `research/market-opportunity.md` with:
@@ -44,6 +51,9 @@ Create `research/market-opportunity.md` with:
 - Market structure and key players
 - Monetization landscape and pricing strategies
 - Opportunities and strategic recommendations
+- Explicit calculations and inputs for TAM/SAM/SOM (with currency and year)
+- Source quality notes (primary vs secondary)
+- Limits and unknowns
 
 ## Success criteria
 
@@ -51,3 +61,5 @@ Create `research/market-opportunity.md` with:
 - Clear addressable niche definition
 - Data supporting product-market fit
 - Realistic revenue projections
+- Evidence and citations included for key claims
+- Documented limitations if data is sparse or unavailable

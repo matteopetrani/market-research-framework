@@ -6,6 +6,25 @@ Execute targeted research workflows for your market research project using speci
 
 `/research $ARGUMENTS`
 
+## Output and Evidence Standards
+
+- Cite sources for every factual claim.
+- Use this citation format: `[Source Name](URL) - accessed YYYY-MM-DD`
+- If access to sources is not available, ask the user for links, notes, or screenshots and do not guess.
+- Do not fabricate sources or citations.
+- Include a short "Limits and Unknowns" section in each output file.
+
+## File Handling
+
+- Create `research/` if it does not exist.
+- Append to existing files. Do not overwrite without confirming with the user.
+
+## Data Handling and Ethics
+
+- Use only public community content.
+- Anonymize quotes and avoid including usernames or identifying details.
+- Do not include content from private or closed groups without explicit user permission.
+
 ## Available Subcommands
 
 ### `competitor <url>`
@@ -52,6 +71,7 @@ Read the user's `assumptions.md` file from the project root, then review all res
    - Adjacent categories
    - Analysis dimensions
 4. Apply this context throughout the research process
+5. If sources are inaccessible, request user-provided sources or notes and proceed only with what is provided
 
 ---
 
@@ -65,36 +85,42 @@ When the user runs `/research [subcommand]`:
    - Extract features, positioning, monetization, content approach, and domain-specific features
    - If `research/competitive-landscape.md` doesn't exist, create it
    - Append a new section for this competitor to the file
-   - Provide a brief summary of key findings and competitive gaps
+   - Provide a brief summary of key findings and competitive gaps with citations
+   - Include "Limits and Unknowns" and note any missing data
 
 2. **For `hidden-competitors`:**
    - Read `domain-config.md` for search dimensions and adjacent categories
    - Use the `discovering-hidden-competitors` skill
    - Search for niche, adjacent, and international competitors
    - Append discoveries to `research/competitive-landscape.md`
-   - Summarize findings and suggest if any should be analyzed in detail with `/research competitor`
+   - Summarize findings with citations and suggest if any should be analyzed in detail with `/research competitor`
+   - Include "Limits and Unknowns" and note any missing data
 
 3. **For `market`:**
    - Read `domain-config.md` for market category, subcategory, and target audience
    - Use the `researching-market-opportunity` skill
    - Execute market sizing and trend analysis
    - Create `research/market-opportunity.md`
-   - Summarize key market insights
+   - Summarize key market insights with citations
+   - Include "Limits and Unknowns" and note any missing data
 
 4. **For `community`:**
    - Read `domain-config.md` for communities and search keywords
    - Use the `mining-community-insights` skill
    - Analyze online communities for user insights
    - Create `research/community-insights.md`
-   - Summarize key pain points and demand signals
+   - Summarize key pain points and demand signals with citations
+   - Include "Limits and Unknowns" and note any missing data
 
 5. **For `assumptions`:**
    - First, check if `assumptions.md` exists in the project root
    - If it doesn't exist, inform the user they need to create it with their hypotheses
    - Read the assumptions from the file
-   - Review all files in `research/` directory
-   - For each assumption, find supporting or contradicting evidence
+   - Review all files in `research/` directory (if present): `competitive-landscape.md`, `market-opportunity.md`, `community-insights.md`, `assumptions-validation.md`
+   - For each assumption, label as Supported, Contradicted, or Inconclusive with evidence citations
+   - If evidence is missing, note what research is needed next
    - Create `research/assumptions-validation.md` with validation results
    - Summarize which assumptions are validated, which need more research, and which are contradicted
+   - Include "Limits and Unknowns"
 
 If no subcommand is provided, ask the user which research area they want to explore.
