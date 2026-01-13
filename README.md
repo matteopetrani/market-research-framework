@@ -160,7 +160,7 @@ Contributions welcome! Areas for improvement:
 
 ## Author
 
-Created with Claude Code by [your name/handle]
+Created with Claude Code by Matteo Petrani
 
 ---
 
