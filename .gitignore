@@ -2,6 +2,10 @@
 research/
 output/
 
+# Gitbook settings 
+.gitbook.yaml
+SUMMARY.md
+
 # Local settings
 .claude/settings.local.json
 
